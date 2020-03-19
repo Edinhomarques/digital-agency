@@ -1,0 +1,22 @@
+
+.text-carousel{
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  font-size: 4vw;
+  left: 32%;
+  color: #00adb5;
+}
+
+.carousel-button{
+  position: absolute;
+  top: 200px;
+  left: 400px;
+
+}
+
+@media(max-width: 800px){
+  .fixed-top{
+    position: static;
+  }
+}
