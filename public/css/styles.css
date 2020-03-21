@@ -12,22 +12,32 @@
 .text-carousel-2{
   font-weight: bold;
   position: absolute;
-  top: 20%;
-  margin-left: 25px;
-  font-size: 4vw;
+  top: 25%;
+  left: 15%;
+  font-size: 3vw;
   text-align: center;
   color: #00adb5;
 }
-#btn-carousel{
+.btn {
+  border-color: #3b6978;
+  background-color:#00adb5 ;
+  color: #fff;  
+}
+.btn-submit{
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  padding: 0;
+}
+.btn-carousel{
+  font-size: 2vw;
   position: absolute;
   max-height: 10vh;
   max-width: 20vw;
   min-width: 100px;
   top: 45%;
   left: 40%;
-  font-size: 2vw;
-  border-color: #3b6978;
-  background-color:#00adb5 ;
+  
   text-transform: uppercase;
 
 }
@@ -107,7 +117,9 @@
   border-radius: 500px;
   
 }
-
+ul {
+  list-style: none;
+}
 @media(max-width: 800px){
   .fixed-top{
     position: static;
