@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 .text-carousel{
   font-weight: bold;
   position: absolute;
@@ -7,12 +9,53 @@
   left: 32%;
   color: #00adb5;
 }
+.text-carousel-2{
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  margin-left: 25px;
+  font-size: 4vw;
+  text-align: center;
+  color: #00adb5;
+}
+#btn-carousel{
+  position: absolute;
+  max-height: 10vh;
+  max-width: 20vw;
+  min-width: 100px;
+  top: 45%;
+  left: 40%;
+  font-size: 2vw;
+  border-color: #3b6978;
+  background-color:#00adb5 ;
+  text-transform: uppercase;
 
+}
+
+
+.text-white:hover{
+  color:  #00adb5 !important;
+}
+
+.text-white:focus{
+  color:  #00adb5 !important;
+}
 .carousel-button{
   position: absolute;
   top: 200px;
   left: 400px;
+}
+.text-center{
+  color: #00adb5;
+  font-weight: bold;
+}
 
+.box-services {
+  height: 350px;
+  border: 2px solid #3b6978;
+  border-radius: 5px;
+
+  margin: 10px 5px;
 }
 
 @media(max-width: 800px){
