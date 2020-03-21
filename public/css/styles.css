@@ -52,10 +52,16 @@
 
 .box-services {
   height: 350px;
-  border: 2px solid #3b6978;
+  border: 1.2px solid #00adb5;
   border-radius: 5px;
-
-  margin: 10px 5px;
+  margin-top: 5px;
+  color: #3b6978;
+  font-weight: bold;
+}
+.card > img {
+  padding-top: 5px;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 @media(max-width: 800px){
